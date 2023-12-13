@@ -23,7 +23,6 @@ int main(int argc, char *argv[])
   ze_context_handle_t ctx = sycl::get_native<sycl::backend::ext_oneapi_level_zero>(q.get_context());
   ze_device_handle_t dev = sycl::get_native<sycl::backend::ext_oneapi_level_zero>(q.get_device());
 
-
   size_t count = 17;
   Type *buffer_d = sycl::malloc_device<Type>(count, q);
   Type *buffer_h = sycl::malloc_host<Type>(count, q);
