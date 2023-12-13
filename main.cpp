@@ -6,7 +6,6 @@
 
 // UTILITIES
 #include "../ExaComm/CommBench/util.h"
-void print_args();
 
 #define Type int
 
