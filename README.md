@@ -1,6 +1,8 @@
-### Related Links
+## IPC with L0+SYCL+MPI
 
 Sets up IPC mechanism using L0, SYCL, and MPI
+
+### Related Links
 
 Level Zero documentation: https://spec.oneapi.io/level-zero/latest/index.html
 
