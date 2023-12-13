@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
     printf("error %d\n", error);
     Type value = -7;
     q.fill(buffer_d, value, count).wait();
-    q.memcpy(buffer_d, buffer_ipc, count * sizeof(Type)).wait(); // CRITICAL LINE
+    q.memcpy(buffer_d, buffer_ipc, count * sizeof(Type)).wait(); // critical line for DMA
     q.memcpy(buffer_h, buffer_d, count * sizeof(Type)).wait();
     for(int i = 0; i < count; i++)
       printf("rank 1 check %d\n", buffer_h[i]);
