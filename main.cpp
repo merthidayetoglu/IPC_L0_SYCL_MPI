@@ -28,8 +28,6 @@ int main(int argc, char *argv[])
   Type *buffer_d = sycl::malloc_device<Type>(count, q);
   Type *buffer_h = sycl::malloc_host<Type>(count, q);
 
-  MPI_Barrier(MPI_COMM_WORLD);
-
   if(myid == 0) {
     Type value = -6;
     q.fill(buffer_d, value, count).wait();
