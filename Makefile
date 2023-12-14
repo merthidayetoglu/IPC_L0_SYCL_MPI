@@ -3,7 +3,7 @@
 CXX = mpicxx
 CXXFLAGS = -cxx=icpx -fsycl -fsycl-targets=spir64
 
-LD_FLAGS = -fopenmp -fsycl -lze_loader
+LD_FLAGS = -fsycl -lze_loader
 CMPIFLAGS =
 CMPILIBFLAGS = 
 

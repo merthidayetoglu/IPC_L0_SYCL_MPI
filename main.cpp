@@ -4,9 +4,6 @@
 
 #define ROOT 0
 
-// UTILITIES
-#include "../ExaComm/CommBench/util.h"
-
 #define Type int
 
 int main(int argc, char *argv[])
