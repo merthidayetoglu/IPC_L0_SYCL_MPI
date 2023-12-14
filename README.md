@@ -1,6 +1,8 @@
 ## IPC with L0+SYCL+MPI
 
-Sets up IPC mechanism using L0, SYCL, and MPI
+Sets up IPC mechanism using L0, SYCL, and MPI as described in here:
+
+https://spec.oneapi.io/level-zero/latest/core/PROG.html#memory-1
 
 ### Related Links
 
